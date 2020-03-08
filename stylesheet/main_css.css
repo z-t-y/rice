@@ -1,0 +1,89 @@
+div#header{
+    background-color:rgb(124, 51, 145);
+    padding:20px;
+    margin:0;
+    float:top;
+}
+div#header h1{
+    text-align: center;
+    font-size:72px;
+    margin:0;
+}
+div#header h2{
+    text-align: right;
+    border-right:5px;
+    font-size:24px;
+    margin:0;
+}
+div#browser_version{
+    color:black;
+    background-color:white;
+    padding:5px;
+    margin:0
+}
+div#navpage{
+    height:36px;
+    width:15%;
+    margin:20px;
+    padding-top:7px;
+    background-color:rgb(124, 51, 145);
+    text-align:center;
+    transition:background-color 1s;
+    float:left;
+    border-radius:18px;
+    color:white;
+}
+div#navpage a{
+    text-decoration:none;
+    color:black
+}
+div#navpage:hover{
+    background-color:white;
+    color:black
+}
+a#browser{
+    color:rgb(124, 51, 145);
+    text-decoration:none;
+}
+a#browser:hover{
+    background-color:rgb(124, 51, 145);
+    color:white;
+}
+nav{
+    float:left;
+    background-color:rgb(84, 11, 105);
+    width:100%;
+    color:white;
+}
+div#left_specific{
+    float:left;
+    background-color:rgb(124, 51, 145);
+    width:19%;
+    padding-left:1%
+}
+div#headnews_title{
+    float:right;
+    margin:0;
+    padding:5px;
+    width: 77%;
+    background-color:rgb(164, 111, 205);
+}
+div#idea{
+    float:right;
+    height:50%;
+    width: 69.5%;
+    margin:0;
+    padding:5%;
+    background-color:rgb(124, 51, 145);
+}
+div#idea h2{
+    color:white;
+}
+div#main_passage{
+    float:right;
+    font-size:24px;
+    width:69.5%;
+    padding-right:5%;
+    padding-left:5%;
+    background-color: rgb(84, 11, 105);
+}
