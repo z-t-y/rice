@@ -1,3 +1,4 @@
+
 div#header{
     background-color:rgb(124, 51, 145);
     padding:20px;
@@ -59,14 +60,9 @@ div#left_specific{
     float:left;
     background-color:rgb(124, 51, 145);
     width:19%;
-    padding-left:1%
-}
-div#headnews_title{
-    float:right;
-    margin:0;
-    padding:5px;
-    width: 77%;
-    background-color:rgb(164, 111, 205);
+    padding-left:1%;
+    overflow:hidden;
+    height:600px;
 }
 div#idea{
     float:right;
@@ -75,6 +71,7 @@ div#idea{
     margin:0;
     padding:5%;
     background-color:rgb(124, 51, 145);
+    overflow: hidden;
 }
 div#idea h2{
     color:white;
